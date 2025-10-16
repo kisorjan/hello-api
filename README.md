@@ -10,13 +10,13 @@ GET /hello-world?name=<string>
 - If name is missing or empty → returns 400 Bad Request with "Invalid Input"
 
 # How to Run
-go run main.go
+go run .
 
-Server will start on port 9090 by default:
-http://localhost:9090/hello-world?name=Alice
+Server will start on port 7070 by default:
+http://localhost:7070/hello-world?name=kisor
 
 You can also specify a custom port:
 PORT=7070 go run main.go
 
-# Run Tests
+# Run Tests API
 go test -v
